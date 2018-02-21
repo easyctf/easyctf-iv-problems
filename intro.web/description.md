@@ -1,0 +1,1 @@
+The web goes well beyond the surface of the browser! Warm up your web-sleuthing skills with this challenge by finding the hidden flag on [this page](${index_html})!

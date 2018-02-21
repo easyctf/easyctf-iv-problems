@@ -1,0 +1,12 @@
+title: "Programming: Over and Over"
+author: michael
+category: Programming
+test_cases: 10
+time_limit: 10
+memory_limit: 1000
+value: 30
+autogen: false
+programming: true
+threshold: 1
+weightmap:
+  intro.hello: 1

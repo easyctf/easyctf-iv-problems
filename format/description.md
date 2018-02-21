@@ -1,0 +1,1 @@
+Go to `/problems/format` on the shell server and tell me what is in `flag.txt`.

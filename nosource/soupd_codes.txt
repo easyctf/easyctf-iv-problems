@@ -1,0 +1,9 @@
+ 1: devtools in test
+ 2: <head> timeout
+ 3: devtools in success
+*4: refresh header in test (1s)
+*5: invalid token in test
+*6: invalid token in success (no cookie)
+*7: invalid user agent
+*8: duration in success only (2s)
+*9: invalid token in success (validity bad)

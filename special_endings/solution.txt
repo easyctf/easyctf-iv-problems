@@ -1,0 +1,3 @@
+Pretty much the same thing as outlined here: https://github.com/ctfs/write-ups-2016/tree/master/open-ctf-2016/steganography/ultra-encryption-100
+
+Basically, I hide either 0, 2, or 4 bits of the flag in the padding characters of the base64 encoded strings.

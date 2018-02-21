@@ -1,0 +1,11 @@
+title: Nosource
+author: gengkev
+category: Web
+value: 250
+hint: "If you can't beat 'em, maybe you can get around 'em somehow?"
+autogen: false
+docker:
+  args: "--publish 127.0.0.1:8100:80"
+net:
+  port: 12486
+  redirect: localhost 8100

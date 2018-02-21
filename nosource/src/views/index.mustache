@@ -1,0 +1,34 @@
+{{> header}}
+<div class="starter-template">
+  <h1>Stop looking at the source code</h1>
+  <p class="lead">
+    Welcome to the home page! Please login by clicking the button below.
+  </p>
+  <form method="POST" action="/login" id="login-form">
+    <input type="hidden" id="token" name="token" value="{{ token }}">
+    <button type="submit" class="btn btn-primary btn-lg">Login</button>
+  </form>
+</div>
+<script>
+  (function () {
+    'use strict';
+
+    function processToken(input) {
+      var key = 0x20;
+      var token = [].map.call(atob(input), n => n.charCodeAt(0));
+      for (var i = 0; i < token.length; i++) {
+        key ^= token[i];
+        token[i] = key;
+      }
+      return btoa(String.fromCharCode.apply(String, token));
+    }
+
+    var formEl = document.getElementById('login-form');
+    var tokenEl = document.getElementById('token');
+    formEl.addEventListener('submit', function () {
+      tokenEl.value = processToken(tokenEl.value);
+    });
+
+  })();
+</script>
+{{> footer}}

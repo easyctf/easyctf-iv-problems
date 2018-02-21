@@ -1,0 +1,10 @@
+author: neptunia
+title: Flag Time
+category: Miscellaneous
+hint: time for u to get an ez flag
+autogen: false
+programming: false
+value: 80
+net:
+  server: server.py
+  port: 12482

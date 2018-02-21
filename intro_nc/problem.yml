@@ -1,0 +1,8 @@
+title: "Intro: Netcat"
+author: michael
+category: Intro
+value: 20
+autogen: true
+net:
+  server: server.py
+  port: 12481

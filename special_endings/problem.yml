@@ -1,0 +1,8 @@
+title: Special Endings
+author: ztaylor54
+category: Forensics
+value: 350
+hint: RFC 4648
+autogen: false
+files:
+  - encrypted_lines.txt

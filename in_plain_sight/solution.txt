@@ -1,0 +1,3 @@
+This problem just requires that you dig the domain blockingthesky.com for TXT records.
+
+Cloudflare blocks the ANY request, which would have made this a tad too easy. 

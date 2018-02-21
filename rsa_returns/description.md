@@ -1,0 +1,1 @@
+It's the return of everyone's favorite cryptosystem! Crack it for another flag. Help me decipher [file](${hardrsa_txt}).

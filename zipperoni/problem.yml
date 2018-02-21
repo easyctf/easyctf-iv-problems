@@ -1,0 +1,9 @@
+title: Zipperoni
+author: gengkev
+category: Miscellaneous
+hint: I love writing Python programs, don't you?
+autogen: false
+programming: false
+value: 160
+files:
+  - zip_files.tar

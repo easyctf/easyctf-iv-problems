@@ -1,0 +1,10 @@
+title: "Starman 1"
+author: blockingthesky
+category: Programming
+test_cases: 15
+time_limit: 3
+memory_limit: 256000
+value: 80
+hint: If you run into issues with the time limit, try reading up on Dynamic Programming.
+autogen: false
+programming: true

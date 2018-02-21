@@ -1,0 +1,4 @@
+1. i'd put the value at about 100
+2. provide a makefile if you're using cxx
+3. have the thing end up actually /printing/ the flag like instead of int arr[] do char arr[6] and then printf("the flag is easyctf{%s}", arr) in the inside of the loop
+4. can u please make more of a description? these kids have NEVER done ctf. they don't know what the fuck a "standard" reversing problem requires you to do

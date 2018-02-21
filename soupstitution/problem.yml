@@ -1,0 +1,11 @@
+title: Soupstitution Cipher
+author: gengkev
+category: Reverse Engineering
+value: 150
+hint: I love parsing characters!
+autogen: false
+files:
+  - soupstituted.py
+net:
+  server: server.py
+  port: 12484

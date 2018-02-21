@@ -1,0 +1,13 @@
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.starter-template {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}

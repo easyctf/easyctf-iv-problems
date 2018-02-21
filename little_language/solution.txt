@@ -1,0 +1,9 @@
+This problem has multiple parts:
+
+ - Find that the encrypted file is a png, and open it
+ - Understand the small-step semantics on the image
+   - Basically it says that the "flag" feature of the language reveals a flag when there are globally defined variables "username" and "password" set to root and the proper password
+ - The proper password can be found hidden at the end of the hex in the encrypted file
+ - Enter the appropriate things into the repl while nc'd to the server
+
+Done!

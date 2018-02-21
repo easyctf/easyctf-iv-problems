@@ -1,0 +1,5 @@
+There's a second valid decryption exponent in RSA: https://marinaibrishimova.net/docs/otherkeys.pdf
+
+can be calculated with: d2 = d+phi(n)/2
+
+Just divide the 2d+phi(n) value by 2 and use it to decrypt C.

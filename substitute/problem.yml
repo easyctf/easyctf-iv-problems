@@ -1,0 +1,8 @@
+title: Substitute
+author: soup
+category: Cryptography
+value: 50
+hint: Look at the title.
+autogen: false
+files:
+  - msg.txt

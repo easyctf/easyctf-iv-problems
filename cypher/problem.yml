@@ -1,0 +1,8 @@
+title: Cypher
+author: soup
+category: Cryptography
+value: 0
+hint: Part 2 is a key reuse.
+autogen: false
+files:
+ - encrypted.txt

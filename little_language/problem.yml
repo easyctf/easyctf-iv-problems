@@ -1,0 +1,12 @@
+title: Little Language
+author: ztaylor54
+category: Miscellaneous
+value: 250
+hint: One small step for man...
+autogen: false
+files:
+  - encrypted
+  - parser.txt
+net:
+  server: start.sh
+  port: 12480

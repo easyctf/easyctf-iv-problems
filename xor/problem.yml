@@ -1,0 +1,8 @@
+author: sso999
+title: xor
+category: Cryptography
+autogen: true
+programming: false
+value: 50
+files:
+    - xor.txt

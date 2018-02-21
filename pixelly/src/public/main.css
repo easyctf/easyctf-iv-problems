@@ -1,0 +1,36 @@
+body {
+  padding: 2rem;
+  font-size: 12pt;
+  font-family: monospace;
+}
+
+.container {
+  margin: 2rem auto;
+  max-width: 40em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+input {
+  padding: 0.25em 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+h1.page-title > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#fileview {
+  white-space: pre;
+}
+

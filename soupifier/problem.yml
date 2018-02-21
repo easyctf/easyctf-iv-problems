@@ -1,0 +1,9 @@
+title: S(t)oupifier
+author: soup
+category: Reversing
+value: 0
+hint: "Err: Domain."
+autogen: false
+files:
+  - flag.txt
+  - source.cpp

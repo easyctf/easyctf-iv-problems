@@ -1,0 +1,8 @@
+author: sso999
+title: Keyed Xor
+category: Cryptography
+autogen: true
+programming: false
+value: 100
+files:
+  - words.txt

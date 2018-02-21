@@ -1,0 +1,2 @@
+put this at at least 100 points (i'd give 125), because for people who probably don't even know how to run this, this is DEFINITELY not worth only 15 points
+also add a makefile for this, even though it's already compiled, just in case changes are made

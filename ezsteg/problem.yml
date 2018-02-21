@@ -1,0 +1,8 @@
+title: EzSteg
+author: soup
+category: Forensics
+value: 30
+hint: The description is a hint.
+autogen: false
+files:
+ - soupculents.jpg

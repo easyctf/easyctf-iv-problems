@@ -1,0 +1,9 @@
+author: neptunia
+title: My Letter
+category: Forensics
+autogen: false
+programming: false
+value: 80
+hint: the flag is not a rickroll
+files:
+    - myletter.docx

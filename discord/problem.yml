@@ -1,0 +1,13 @@
+title: Discord
+author: soup
+category: Misc
+value: 1
+hint: The link to joining the Discord is on our Updates page ;) Make sure you read the info channel.
+threshold: 3
+weightmap:
+  intro.linux: 1
+  intro.hello: 1
+  intro.caesar: 1
+  intro.nc: 1
+  intro.web: 1
+  intro.re: 1

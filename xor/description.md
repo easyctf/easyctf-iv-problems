@@ -1,0 +1,1 @@
+A flag has been encrypted using single-byte xor. Can you decrypt it?  [File](${xor_txt}).

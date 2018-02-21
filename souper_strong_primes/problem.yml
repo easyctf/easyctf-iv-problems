@@ -1,0 +1,9 @@
+title: Souper Strong Primes
+author: soup
+category: Cryptography
+value: 200
+hint: I chose "strong" primes, according to wikipedia. But are there strong primes that aren't cryptographically secure for RSA?
+files:
+  - n.txt
+  - e.txt
+  - c.txt

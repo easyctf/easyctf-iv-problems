@@ -1,0 +1,9 @@
+title: Zippity
+author: gengkev
+category: Miscellaneous
+value: 80
+hint: I wonder if you could write a program...
+autogen: false
+net:
+  server: server.py
+  port: 12483

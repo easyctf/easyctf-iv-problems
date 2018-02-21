@@ -1,0 +1,8 @@
+title: "The Walls Have Ears"
+author: michael
+category: Networking
+value: 0
+autogen: true
+net:
+  server: server.py
+  port: 12488

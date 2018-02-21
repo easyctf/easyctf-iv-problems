@@ -1,0 +1,9 @@
+author: neptunia
+title: Not OTP
+category: Cryptography
+autogen: false
+programming: false
+value: 100
+hint: I think there's something about cribs in there...
+files:
+    - ciphered.txt

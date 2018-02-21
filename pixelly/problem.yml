@@ -1,0 +1,14 @@
+title: Pixelly
+author: gengkev
+category: Reverse Engineering
+hint: How many characters do you really need, now?
+autogen: false
+programming: false
+value: 220
+files:
+  - asciinator.py
+docker:
+  args: "--publish 127.0.0.1:8101:80 --privileged=true"
+net:
+  port: 12489
+  redirect: localhost 8101

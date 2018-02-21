@@ -1,0 +1,8 @@
+title: Adder
+author: soup
+category: Reverse Engineering
+value: 80
+hint: Adds numbers.
+autogen: false
+files:
+  - adder

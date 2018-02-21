@@ -1,0 +1,9 @@
+author: michael
+title: Liar
+category: Reverse Engineering
+autogen: false
+programming: false
+value: 70
+files:
+  - getflag.c
+  - getflag

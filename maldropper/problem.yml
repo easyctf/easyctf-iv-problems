@@ -1,0 +1,8 @@
+author: r3ndom
+title: MalDropper
+category: Reverse Engineering
+autogen: false
+programming: false
+value: 160
+files:
+  - maldrop.exe

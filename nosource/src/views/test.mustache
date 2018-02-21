@@ -1,0 +1,54 @@
+{{> header}}
+<div class="starter-template">
+  <h1>Stop looking at the source code</h1>
+  <p class="lead">
+      Logging you in...
+  </p>
+</div>
+
+<form>
+  <input type="hidden" id="token" name="token" value="{{ token }}" />
+</form>
+
+<script class="delete">
+  (function () {
+    'use strict';
+
+    function soupd() {
+      document.documentElement.innerHTML = '';
+      location.replace('/soupd?1');
+      setInterval(function () {
+        location.replace('/soupd?11');
+      }, 100);
+    }
+
+    function processToken(input) {
+      var key = 20;
+      var token = [].map.call(atob(input), n => n.charCodeAt(0));
+      for (var i = 0; i < token.length; i++) {
+        key ^= token[i];
+        token[i] = key;
+      }
+      return btoa(String.fromCharCode.apply(String, token));
+    }
+
+    try {
+      var element = new Image('/static/img/soup.png');
+      Object.defineProperty(element, 'id', { get: function () {
+        soupd();
+      }});
+      eval("console.log('Stop looking at the source code%c', element);");
+    } catch (e) {}
+
+    document.addEventListener('DOMContentLoaded', function () {
+      $('.delete').remove();
+
+      var tokenEl = document.getElementById('token');
+      document.cookie = 'token=' + processToken(tokenEl.value);
+      window.location.replace('/login');
+    });
+
+  })();
+</script>
+
+{{> footer}}

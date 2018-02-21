@@ -1,0 +1,11 @@
+title: Diff
+author: soup
+category: Forensics
+value: 100
+hint: Check the man page for diff by typing "man diff".
+autogen: false
+files:
+  - file.tar
+threshold: 1
+weightmap:
+  intro.linux: 1

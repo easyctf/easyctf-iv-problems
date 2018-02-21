@@ -1,0 +1,1 @@
+It's kind of like an XOR. Write a program to reverse the effects of the XOR. Maybe I should have done something more destructive so brute-force would be required?

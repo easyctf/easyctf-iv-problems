@@ -1,0 +1,8 @@
+title: Look At Flag
+author: soup
+category: Forensics
+value: 30
+hint: What is this file?
+autogen: false
+files:
+  - flag.txt

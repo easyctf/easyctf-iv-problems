@@ -1,0 +1,4 @@
+root@shell:/problems/markovs_bees# grep -R "easyctf" bees/
+bees/c/e/i/bee913.txt:easyctf{grepping_stale_memes_is_fun}
+
+just a recursive grep

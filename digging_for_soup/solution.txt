@@ -1,0 +1,5 @@
+For this second dig problem, you have to first find the subdomain record to see that `easyctf.nicebowlofsoup.com` exists.
+
+`dig @cleo.ns.cloudflare.com nicebowlofsoup.com axfr`
+
+Then you just do `dig -t TXT easyctf.nicebowlofsoup.com` to get the TXT record with the flag.

@@ -1,0 +1,8 @@
+author: r3ndom
+title: LicenseCheck
+category: Reverse Engineering
+autogen: false
+programming: false
+value: 300
+files:
+  - license_check.exe

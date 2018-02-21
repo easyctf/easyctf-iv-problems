@@ -1,0 +1,8 @@
+title: EzReverse
+author: soup
+category: Reverse Engineering
+value: 140
+hint: Time to read a bit of assembly! Did you know that characters are actually just integers? Take a look at an ASCII table for reference.
+autogen: false
+files:
+ - executable

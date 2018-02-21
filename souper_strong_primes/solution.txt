@@ -1,0 +1,1 @@
+We know that the p and q are strong primes. Looking through wikipedia, you see that twin primes are always strong primes. However, these obviously can be guessed simply by taking the square root of N to obtain the littler prime. From there, the rest is easy.

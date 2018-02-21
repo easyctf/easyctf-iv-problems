@@ -1,0 +1,76 @@
+{{> header}}
+<div class="starter-template">
+  <h1>Stop looking at the source code</h1>
+  <p class="lead">
+    Welcome to the problem page! Please enter the flag below.
+  </p>
+  <form id="flag-form">
+    <div class="form-group">
+      <input type="text" class="form-control" id="flag" placeholder="easyctf{">
+    </div>
+    <button type="submit" class="btn btn-success btn-lg">Check</button>
+  </form>
+</div>
+
+<script class="delete">
+  // Ah, old friend, we meet again...
+  function process(a, b) {
+    'use strict';
+    var len = Math.max(a.length, b.length);
+    var out = [];
+    for (var i = 0, ca, cb; i < len; i++) {
+      ca = a.charCodeAt(i % a.length);
+      cb = b.charCodeAt(i % b.length);
+      out.push(ca ^ cb);
+    }
+    return String.fromCharCode.apply(null, out);
+  }
+
+  (function () {
+    'use strict';
+
+    function soupd() {
+      document.documentElement.innerHTML = '';
+      location.replace('/soupd?2');
+      setInterval(function () {
+        location.replace('/soupd?12');
+      }, 100);
+    }
+
+    try {
+      let badNodes = document.getElementsByClassName('delete');
+      for (let i = 0; i < badNodes.length; i++) {
+        badNodes[i].parentNode.removeChild(badNodes[i]);
+      }
+    } catch (e) {}
+
+    try {
+      window.history.pushState({}, 'Stop looking at the source', '/');
+    } catch (e) {}
+
+    try {
+      var element = new Image('/static/img/soup.png');
+      Object.defineProperty(element, 'id', { get: function () {
+        soupd();
+      }});
+      eval("console.log('Stop looking at the source code%c', element);");
+    } catch (e) {}
+
+    var formEl = document.getElementById('flag-form');
+    var inputEl = document.getElementById('flag');
+
+    var func = "(function (e, v) { e.preventDefault() || " +
+        "alert(inputEl.value === process(this.prototype.flag, " +
+        "this.prototype.key) ? 'Your flag is correct!' : " +
+        "'Incorrect, try again.'); })";
+    var f = 'DQ4cJgsbCVofB18sNw4wRlhfCwAbXxpTC1wwKVlcGBIaUDAGJzowYDoqTiI=';
+    var p = { prototype: { flag: atob(f), key: 'heheheh!' }};
+
+    document.addEventListener('DOMContentLoaded', function () {
+      formEl.addEventListener('submit', eval(func).bind(p));
+      $('.delete').remove();
+    });
+
+  })();
+</script>
+{{> footer}}

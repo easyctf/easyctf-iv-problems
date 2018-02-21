@@ -1,0 +1,9 @@
+start capturing on eth0
+
+wait for your password to show up
+
+send that password to the server instead
+
+profit
+
+easter egg if you figure out the original string
